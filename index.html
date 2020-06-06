@@ -2,21 +2,22 @@
 <html>
     <head>
         <title>Task Maker</title>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
         <div class="body">
             <h1>Le mie attività</h1>
             <form class="taskinput">
-                <input class='text' type="text" name="tastinput">
+                <input class='text' type="text" name="tastinput" placeholder="Your Task" maxlength="15">
                 <button type="submit" class="enterbutton">Invio</button>
             </form>
             <form class='formdate'>
-                Seleziona il giorno:
+                Seleziona l'ora:
                 <input type="checkbox" class="check-time">
             </form>
             <h3>Attivita segnate:</h3>
-            <ul class="tasklist">
+            <ul class="tasklist" type='circle'>
             </ul>
             <form>
                 <button type="button" class="removetask">Elimina tutto</button>
